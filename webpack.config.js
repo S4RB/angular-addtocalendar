@@ -56,6 +56,11 @@ module.exports = function makeWebpackConfig() {
     chunkFilename: '[name].js'
   };
 
+  config.externals = [
+	  'moment',
+	  'angular',
+  ]
+
   /**
    * Loaders
    * Reference: http://webpack.github.io/docs/configuration.html#module-loaders

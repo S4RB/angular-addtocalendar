@@ -1,6 +1,3 @@
-import 'angular-file-saver';
-import '@iamadamjowett/angular-click-outside';
-
 import controller from './controller';
 import bindings from './bindings';
 import template from './template.html';
@@ -19,10 +16,7 @@ const app = {
 };
 
 angular
-  .module(moduleName, [
-    'ngFileSaver',
-    'angular-click-outside'
-  ])
+  .module(moduleName, [])
   .controller('AddtocalendarCtrl', controller)
   .component(controllerAs, app);
 

@@ -22,6 +22,7 @@
     "calendar",
     "event"
   ],
+  "main": "dist/addtocalendar.js",
   "author": "Josh Shor <jpshor@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -29,10 +30,7 @@
   },
   "homepage": "https://github.com/jshor/angular-addtocalendar",
   "dependencies": {
-    "@iamadamjowett/angular-click-outside": "^2.10.1",
-    "angular": "^1.5.0",
-    "angular-file-saver": "^1.1.3",
-    "moment": "^2.18.0"
+    "angular-file-saver": "^1.1.3"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.0",
