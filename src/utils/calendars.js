@@ -40,7 +40,7 @@ export default class Calendars {
       'VERSION:2.0',
       'BEGIN:VEVENT',
       'CLASS:PUBLIC',
-      'DESCRIPTION:' + Utils.formatIcsText(data.description, 62),
+      'DESCRIPTION:' + Utils.formatIcsText(data.description, 62, true),
       'DTSTART:' + data.startDate,
       'DTEND:' + data.endDate,
       'LOCATION:' + Utils.formatIcsText(data.location, 64),

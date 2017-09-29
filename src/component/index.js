@@ -4,7 +4,7 @@ import template from './template.html';
 
 import './styles.scss';
 
-const moduleName = 'angular-atc';
+const moduleName = 's4rb.angular-atc';
 
 const controllerAs = 'addtocalendar';
 
