@@ -1,5 +1,5 @@
 import moment from 'moment';
-import * as wrap from 'wordwrap';
+import wordwrap from 'wordwrap';
 
 export default class Utils {
 
@@ -54,7 +54,8 @@ export default class Utils {
     }
 
 	if(wrap) {
-		str = wrap(maxLength)(str).replace(/\\n/g, '\n ');
+		console.log(wordwrap);
+		str = wordwrap(maxLength)(str).replace(/\n/g, '\\n ');
 	} else {
 		str = str.replace(/\n/g, '\\n');
 		str = str.substring(0, maxLength);
