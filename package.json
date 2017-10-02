@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ajgamble-milner/angular-addtocalendar"
+    "url": "https://github.com/s4rbagamble/angular-addtocalendar"
   },
   "keywords": [
     "icalendar",
@@ -26,9 +26,9 @@
   "author": "Josh Shor <jpshor@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajgamble-milner/angular-addtocalendar/issues"
+    "url": "https://github.com/s4rbagamble/angular-addtocalendar/issues"
   },
-  "homepage": "https://github.com/ajgamble-milner/angular-addtocalendar",
+  "homepage": "https://github.com/s4rbagamble/angular-addtocalendar",
   "dependencies": {
     "angular-file-saver": "^1.1.3",
     "wordwrap": "^1.0.0"
