@@ -1,5 +1,5 @@
 <div class="{{ addtocalendar.useBootstrap ? '' : 'atc-' }}btn-group {{ addtocalendar.className }}" ng-class="{ active: addtocalendar.isOpen }" title="{{ addtocalendar.hoverText || addtocalendar.title }}">
-	<span type="button" ng-class="{ 'btn btn-default dropdown-toggle': addtocalendar.useBootstrap }" ng-click="addtocalendar.toggleMenu(true)" data-toggle="dropdown">
+	<span type="button" ng-class="{ 'btn btn-default dropdown-toggle': addtocalendar.useBootstrap }" ng-click="addtocalendar.toggleMenu()" data-toggle="dropdown">
 		{{ addtocalendar.btnText || 'Add to calendar' }}
 		<span class="caret" ng-hide="addtocalendar.hideCaret"></span>
 	</span>

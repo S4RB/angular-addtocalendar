@@ -58,9 +58,13 @@ export default class AddtocalendarCtrl {
     this.FileSaver.saveAs(icsBlob, fileName);
   }
 
-  toggleMenu(isOpen) {
-    this.isOpen = isOpen;
-  }
+	toggleMenu(isOpen) {
+		if (typeof isOpen === 'undefined') {
+			this.isOpen = typeof this.isOpen === 'undefined' ? true : !this.isOpen;
+		} else {
+			this.isOpen = isOpen;
+		}
+	}
 
   init() {
     this.setTimesFromFormat.call(this);
