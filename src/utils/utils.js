@@ -54,7 +54,6 @@ export default class Utils {
     }
 
 	if(wrap) {
-		console.log(wordwrap);
 		str = wordwrap(maxLength)(str).replace(/\n/g, '\\n ');
 	} else {
 		str = str.replace(/\n/g, '\\n');
