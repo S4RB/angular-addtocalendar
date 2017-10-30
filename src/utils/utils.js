@@ -11,9 +11,9 @@ export default class Utils {
    */
   static getMilitaryHours(hours) {
     if(hours % 1 === 0.5) {
-      return `${Math.floor(hours)}30`;
+      return `0${Math.floor(hours)}30`.slice(-4);
     }
-    return `${Math.round(hours)}00`;
+    return `0${Math.round(hours)}00`.slice(-4);
   }
 
   /**
